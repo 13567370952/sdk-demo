@@ -32,7 +32,7 @@ import com.thng.sdk.vo.ThngInVo;
 import com.thng.sdk.utils.PropertiesUtils;
 
 public class ThngClient {
-    public static final String appId =  PropertiesUtils.getProperty("api_ids");
+    public static final String appId =  PropertiesUtils.getProperty("api_id");
     public static final String secret =  PropertiesUtils.getProperty("api_secret");
     public static final String apiUrl = PropertiesUtils.getProperty("api_url");
 
